@@ -17,6 +17,7 @@ collections:
           default: BlogPost,
         }
       - { name: path, label: Path }
+      - { name: author, label: Author }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - label: Featured Image
