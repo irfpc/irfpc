@@ -16,7 +16,7 @@ export default ({ children }) => {
     `
   )
   return (
-    <div className="site-wrapper">
+    <div dir="rtl" className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
@@ -24,8 +24,8 @@ export default ({ children }) => {
         <Navigation />
       </header>
       {children}
-      <footer className="site-footer">
-        <p>&copy; 2020 Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+      <footer dir="ltr" className="site-footer">
+        <p>&copy; 2020 IRAN FUNCTIONAL PROGRAMMING COMMUNITY</p>
       </footer>
     </div>
   )
