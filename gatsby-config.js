@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
+    title: `بلاگ جامعه برنامه نویسی فانکشنال ایران`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://delog-w3layouts.netlify.com/`,
     home: {
