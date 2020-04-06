@@ -1,9 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/contact">Contact</Link>
+    <a href="https://t.me/ifpc_channel">Telegram</a>
+    <a href="https://github.com/irfpc">Github</a>
   </nav>
   
 )
