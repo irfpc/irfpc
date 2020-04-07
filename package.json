@@ -44,7 +44,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy:github": "npm run build && node ./deploy-github",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   }
 }
