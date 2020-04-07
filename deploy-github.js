@@ -4,7 +4,7 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'master',
+    branch: 'page',
     repo: 'https://github.com/irfpc/irfpc.git',
   },
   () => {
