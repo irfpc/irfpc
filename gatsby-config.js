@@ -6,6 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/reponame",
   siteMetadata: {
     title: `بلاگ جامعه برنامه نویسی فانکشنال ایران`,
     description: `جامعه غیر انحصاری برنامه نویسی فانکشنال ایران با هدف نشر دانش در زمینه ی برنامه نویسی فانکشنال.`,
