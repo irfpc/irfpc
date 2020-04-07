@@ -4,10 +4,10 @@ const ghpages = require('gh-pages')
 ghpages.publish(
   'public',
   {
-    branch: 'page',
-    repo: 'https://github.com/irfpc/irfpc.git',
+    branch: 'gitpage',
+    repo: 'https://github.com/irfpc/irfpc',
   },
   () => {
-    console.log('Deploy Complete!')
+    console.log('Deploy Complete branch !')
   }
 )
